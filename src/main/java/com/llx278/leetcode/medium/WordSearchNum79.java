@@ -5,8 +5,12 @@ import java.util.Deque;
 import java.util.HashSet;
 import java.util.Objects;
 
-public class WordSearch {
+public class WordSearchNum79 {
     public boolean exist(char[][] board, String word) {
+
+        if (word.length() == 0) {
+            return true;
+        }
 
         if (board.length == 0) {
             return false;
@@ -216,71 +220,5 @@ public class WordSearch {
         public int hashCode() {
             return Objects.hash(x, y);
         }
-    }
-
-
-    public static void main(String[] args) {
-        char[][] board = new char[][]{
-                {'A','B','C','E'},
-                {'S','F','C','S'},
-                {'A','D','E','E'},
-        };
-        char[][] board0 = new char[][]{
-                {'A','B','C','E'}
-        };
-        char[][] board1 = new char[][]{
-                {},
-
-        };
-        char[][] board2 = new char[][]{
-                {},
-                {},
-                {}
-        };
-        char[][] board3 = new char[][] {
-                {'A'},
-                {'B'},
-                {'C'}
-        };
-        char[][] board4 = new char[][] {
-                {'C','D','D'},
-                {'A','A','D'},
-                {'B','C','D'}
-        };
-
-        /**
-         *
-         *
-         *
-         *
-         *
-         * [["a","a","a"]
-         * ,["a","b","b"]
-         * ,["a","b","b"]
-         * ,["b","b","b"]
-         * ,["b","b","b"]
-         * ,["a","a","a"]
-         * ,["b","b","b"]
-         * ,["a","b","b"]
-         * ,["a","a","b"]
-         * ,["a","b","a"]]
-         * "aabaaaabbb"
-         */
-
-        char[][] board5 = new char[][] {
-                {'a','a','a'},
-                {'a','b','b'},
-                {'a','b','b'},
-                {'b','b','b'},
-                {'b','b','b'},
-                {'a','a','a'},
-                {'b','b','b'},
-                {'a','b','b'},
-                {'a','a','b'},
-                {'a','b','a'}
-        };
-
-        boolean ret = new WordSearch().exist(board3,"ABC");
-        System.out.println("ret : " + ret);
     }
 }
