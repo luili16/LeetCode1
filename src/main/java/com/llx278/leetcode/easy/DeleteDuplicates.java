@@ -1,5 +1,7 @@
 package com.llx278.leetcode.easy;
 
+import com.llx278.leetcode.datastruct.ListNode;
+
 public class DeleteDuplicates {
     public ListNode deleteDuplicates(ListNode head) {
 
@@ -17,14 +19,5 @@ public class DeleteDuplicates {
             }
         }
         return head;
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
     }
 }

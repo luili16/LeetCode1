@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="905747d4-80e2-40a4-bcfa-a87eaaea7955" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/Solution26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/easy/TestSolution26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestWordSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution81.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/datastruct/DataStructHelperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution81.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/WordSearchNum79.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/DataStructHelper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -43,34 +39,70 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/Solution26.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution80.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution81.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="21" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution80.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="47" column="58" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
+            <state relative-caret-position="840">
+              <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <folding>
+                <element signature="e#166#167#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/DataStructHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/datastruct/DataStructHelperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution81.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,6 +134,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/Solution80.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution80.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution80.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution81.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution81.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/datastruct/DataStructHelperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/DataStructHelper.java" />
       </list>
     </option>
   </component>
@@ -117,7 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,7 +195,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="llx" type="b2602c69:ProjectViewProjectNode" />
@@ -197,22 +234,13 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="llx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,7 +266,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestSolution80.testCase0">
+  <component name="RunManager" selected="Gradle.DataStructHelperTest.testCase">
+    <configuration name="DataStructHelperTest.testCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.llx278.leetcode.datastruct.DataStructHelperTest.testCase&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="TestSolution26" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -279,46 +327,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestSolution26.test4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.llx278.leetcode.easy.TestSolution26.test4&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSolution26.test5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.llx278.leetcode.easy.TestSolution26.test5&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="TestSolution80.testCase0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -339,13 +347,33 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TestSolution81.testCase0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.llx278.leetcode.medium.TestSolution81.testCase0&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DataStructHelperTest.testCase" />
+        <item itemvalue="Gradle.TestSolution81.testCase0" />
         <item itemvalue="Gradle.TestSolution80.testCase0" />
         <item itemvalue="Gradle.TestSolution26" />
         <item itemvalue="Gradle.TestSolution26.test1" />
-        <item itemvalue="Gradle.TestSolution26.test5" />
-        <item itemvalue="Gradle.TestSolution26.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -363,68 +391,68 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSolution80_testCase0 - 2019.06.30 at 14h 33m 36s.xml">
-      <configuration name="TestSolution80.testCase0" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestSolution81_testCase0 - 2019.07.06 at 11h 10m 52s.xml">
+      <configuration name="TestSolution81.testCase0" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSolution80_testCase0 - 2019.06.30 at 14h 34m 40s.xml">
-      <configuration name="TestSolution80.testCase0" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestSolution81_testCase0 - 2019.07.06 at 11h 11m 12s.xml">
+      <configuration name="TestSolution81.testCase0" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSolution80_testCase0 - 2019.06.30 at 14h 34m 50s.xml">
-      <configuration name="TestSolution80.testCase0" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestSolution81_testCase0 - 2019.07.06 at 11h 13m 30s.xml">
+      <configuration name="TestSolution81.testCase0" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSolution80_testCase0 - 2019.06.30 at 14h 36m 00s.xml">
-      <configuration name="TestSolution80.testCase0" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestSolution81_testCase0 - 2019.07.06 at 11h 14m 19s.xml">
+      <configuration name="TestSolution81.testCase0" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSolution80_testCase0 - 2019.06.30 at 14h 37m 17s.xml">
-      <configuration name="TestSolution80.testCase0" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestSolution81_testCase0 - 2019.07.06 at 11h 17m 02s.xml">
+      <configuration name="TestSolution81.testCase0" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSolution80_testCase0 - 2019.06.30 at 14h 37m 54s.xml">
-      <configuration name="TestSolution80.testCase0" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestSolution81_testCase0 - 2019.07.06 at 11h 17m 44s.xml">
+      <configuration name="TestSolution81.testCase0" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSolution80_testCase0 - 2019.06.30 at 14h 38m 22s.xml">
-      <configuration name="TestSolution80.testCase0" configurationId="GradleRunConfiguration" />
+    <history-entry file="DataStructHelperTest_testCase - 2019.07.06 at 12h 22m 43s.xml">
+      <configuration name="DataStructHelperTest.testCase" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSolution80_testCase0 - 2019.06.30 at 14h 38m 39s.xml">
-      <configuration name="TestSolution80.testCase0" configurationId="GradleRunConfiguration" />
+    <history-entry file="DataStructHelperTest_testCase - 2019.07.06 at 12h 24m 47s.xml">
+      <configuration name="DataStructHelperTest.testCase" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSolution80_testCase0 - 2019.06.30 at 14h 38m 57s.xml">
-      <configuration name="TestSolution80.testCase0" configurationId="GradleRunConfiguration" />
+    <history-entry file="DataStructHelperTest_testCase - 2019.07.06 at 12h 26m 17s.xml">
+      <configuration name="DataStructHelperTest.testCase" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSolution80_testCase0 - 2019.06.30 at 14h 40m 01s.xml">
-      <configuration name="TestSolution80.testCase0" configurationId="GradleRunConfiguration" />
+    <history-entry file="DataStructHelperTest_testCase - 2019.07.06 at 12h 26m 56s.xml">
+      <configuration name="DataStructHelperTest.testCase" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2689394" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27348486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.15635179" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.52435064" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19543974" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32084692" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23615634" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.54723126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.48534203" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.52435064" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="XDebuggerManager">
@@ -435,6 +463,12 @@
           <line>44</line>
           <properties />
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution81.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -449,6 +483,16 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>target &lt;= nums[middle - 1]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>target &lt;= nums[middle - 1])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>Arrays.copyOfRange(nums,0,ret)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -462,12 +506,6 @@
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/RemoveElement.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -570,27 +608,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/Solution26.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="345">
           <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution80.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="585">
           <caret line="47" column="58" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution80.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution81.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/DataStruct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/datastruct/DataStructHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/DataStructHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution81.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
