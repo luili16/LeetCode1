@@ -9,6 +9,14 @@ import org.junit.runners.JUnit4;
 public class DataStructHelperTest {
 
     @Test
+    public void testRandomTree() {
+        Node node = DataStructHelper.randomTree(3);
+        // 怎么测试这个node是正确的？
+        DataStructHelper.printTree(node);
+    }
+
+
+    @Test
     public void testCase () {
         int[] nums = {1,2,3,4,5,6,7};
         ListNode head = DataStructHelper.toLinkedList(nums);

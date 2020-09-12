@@ -2,23 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="905747d4-80e2-40a4-bcfa-a87eaaea7955" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution86.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/Solution589.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution82.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution90.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution82.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution90.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution86.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution86.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/DataStructHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/DataStructHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/datastruct/DataStructHelperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/datastruct/DataStructHelperTest.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="237" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
-    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -31,36 +39,19 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="llx" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution86.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution86.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,153 +63,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/PlusOne.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/MinPathSum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/WordSearch.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestWordSearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/WordSearchNum79.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/Solution26.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/easy/TestSolution26.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/Solution80.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution80.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution80.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution81.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution81.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/datastruct/DataStructHelperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/DataStructHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/DeleteDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution86.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution86.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="102" />
-    <option name="y" value="43" />
-    <option name="width" value="1221" />
-    <option name="height" value="635" />
-  </component>
+  <component name="ProjectId" id="1PE0bsr45awz8eFa796ukoH9iwx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="llx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="llx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="llx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="llx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="llx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="llx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="llx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="llx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="llx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="llx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="llx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="llx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="llx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -227,19 +83,12 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestSolution86.testCase">
+  <component name="RunManager" selected="Gradle.DataStructHelperTest.testRandomTree">
     <configuration name="DataStructHelperTest.testCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -260,12 +109,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestSolution26" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DataStructHelperTest.testRandomTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.llx278.leetcode.easy.TestSolution26&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.llx278.leetcode.datastruct.DataStructHelperTest.testRandomTree&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -280,24 +129,23 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestSolution80.testCase0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LeetCode1 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.llx278.leetcode.medium.TestSolution80.testCase0&quot;" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
+            <option value="build" />
           </list>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="TestSolution81.testCase0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -317,7 +165,7 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="TestSolution86.testCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -337,18 +185,37 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Gradle.TestSolution81.testCase0" />
+      <item itemvalue="Gradle.TestSolution86.testCase" />
+      <item itemvalue="Gradle.LeetCode1 [build]" />
+      <item itemvalue="Gradle.DataStructHelperTest.testCase" />
+      <item itemvalue="Gradle.DataStructHelperTest.testRandomTree" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestSolution86.testCase" />
+        <item itemvalue="Gradle.DataStructHelperTest.testRandomTree" />
         <item itemvalue="Gradle.DataStructHelperTest.testCase" />
         <item itemvalue="Gradle.TestSolution81.testCase0" />
-        <item itemvalue="Gradle.TestSolution80.testCase0" />
-        <item itemvalue="Gradle.TestSolution26" />
+        <item itemvalue="Gradle.LeetCode1 [build]" />
+        <item itemvalue="Gradle.TestSolution86.testCase" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -363,69 +230,57 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="TestSolution81_testCase0 - 2019.07.06 at 11h 17m 02s.xml">
-      <configuration name="TestSolution81.testCase0" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSolution81_testCase0 - 2019.07.06 at 11h 17m 44s.xml">
-      <configuration name="TestSolution81.testCase0" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="DataStructHelperTest_testCase - 2019.07.06 at 12h 22m 43s.xml">
-      <configuration name="DataStructHelperTest.testCase" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="DataStructHelperTest_testCase - 2019.07.06 at 12h 24m 47s.xml">
-      <configuration name="DataStructHelperTest.testCase" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="DataStructHelperTest_testCase - 2019.07.06 at 12h 26m 17s.xml">
-      <configuration name="DataStructHelperTest.testCase" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="DataStructHelperTest_testCase - 2019.07.06 at 12h 26m 56s.xml">
-      <configuration name="DataStructHelperTest.testCase" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="DataStructHelperTest_testCase - 2019.07.07 at 12h 19m 59s.xml">
-      <configuration name="DataStructHelperTest.testCase" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSolution86_testCase - 2019.07.07 at 12h 20m 34s.xml">
-      <configuration name="TestSolution86.testCase" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSolution86_testCase - 2019.07.07 at 12h 21m 25s.xml">
-      <configuration name="TestSolution86.testCase" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSolution86_testCase - 2019.07.07 at 12h 21m 55s.xml">
-      <configuration name="TestSolution86.testCase" configurationId="GradleRunConfiguration" />
-    </history-entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2780303" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41856676" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44136807" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.13192183" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.52435064" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
+  <component name="WindowStateProjectService">
+    <state width="1355" height="444" key="GridCell.Tab.0.bottom" timestamp="1599912497664">
+      <screen x="0" y="23" width="1400" height="877" />
+    </state>
+    <state width="1355" height="185" key="GridCell.Tab.0.bottom/0.23.1399.877@0.23.1399.877" timestamp="1599897576827" />
+    <state width="1355" height="444" key="GridCell.Tab.0.bottom/0.23.1400.877@0.23.1400.877" timestamp="1599912497664" />
+    <state width="1355" height="444" key="GridCell.Tab.0.center" timestamp="1599912497663">
+      <screen x="0" y="23" width="1400" height="877" />
+    </state>
+    <state width="1355" height="185" key="GridCell.Tab.0.center/0.23.1399.877@0.23.1399.877" timestamp="1599897576826" />
+    <state width="1355" height="444" key="GridCell.Tab.0.center/0.23.1400.877@0.23.1400.877" timestamp="1599912497663" />
+    <state width="1355" height="444" key="GridCell.Tab.0.left" timestamp="1599912497662">
+      <screen x="0" y="23" width="1400" height="877" />
+    </state>
+    <state width="1355" height="185" key="GridCell.Tab.0.left/0.23.1399.877@0.23.1399.877" timestamp="1599897576826" />
+    <state width="1355" height="444" key="GridCell.Tab.0.left/0.23.1400.877@0.23.1400.877" timestamp="1599912497662" />
+    <state width="1355" height="444" key="GridCell.Tab.0.right" timestamp="1599912497663">
+      <screen x="0" y="23" width="1400" height="877" />
+    </state>
+    <state width="1355" height="185" key="GridCell.Tab.0.right/0.23.1399.877@0.23.1399.877" timestamp="1599897576827" />
+    <state width="1355" height="444" key="GridCell.Tab.0.right/0.23.1400.877@0.23.1400.877" timestamp="1599912497663" />
+    <state x="207" y="100" key="SettingsEditor" timestamp="1599896922650">
+      <screen x="0" y="23" width="1399" height="877" />
+    </state>
+    <state x="207" y="100" key="SettingsEditor/0.23.1399.877@0.23.1399.877" timestamp="1599896922650" />
+    <state x="356" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1599897319772">
+      <screen x="0" y="23" width="1399" height="877" />
+    </state>
+    <state x="356" y="296" key="com.intellij.ide.util.TipDialog/0.23.1399.877@0.23.1399.877" timestamp="1599897319772" />
+    <state x="358" y="296" key="com.intellij.ide.util.TipDialog/0.23.1403.877@0.23.1403.877" timestamp="1594366933484" />
+    <state x="363" y="211" width="670" height="675" key="run.anything.popup" timestamp="1599897450141">
+      <screen x="0" y="23" width="1399" height="877" />
+    </state>
+    <state x="363" y="211" width="670" height="675" key="run.anything.popup/0.23.1399.877@0.23.1399.877" timestamp="1599897450141" />
+    <state x="363" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599911692924">
+      <screen x="0" y="23" width="1400" height="877" />
+    </state>
+    <state x="363" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1400.877@0.23.1400.877" timestamp="1599911692924" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -433,23 +288,18 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/easy/TestSolution26.java</url>
           <line>44</line>
-          <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution81.java</url>
           <line>39</line>
-          <properties />
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution86.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/llx$TestSolution86_testCase.ic" NAME="TestSolution86.testCase Coverage Results" MODIFIED="1565424094147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
@@ -476,230 +326,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/RemoveElement.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/BinaryTreeLevelOrderTraversal_II.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/Merge.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/ClimbingStairs3.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/ClimbingStairs2.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/PathSum.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/SearchInsertPosition.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/SymmetricTree.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/SqrtX.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/PlusOne.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/MinPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/GroupAnagrams.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/UniquePaths.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Permute.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/JumpGame.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Merge.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/UniquePaths2.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/CombinationSum.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestWordSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/WordSearchNum79.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/easy/TestSolution26.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/Solution26.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution80.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="47" column="58" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution80.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/LinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/DataStruct.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution81.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/easy/DeleteDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#171#172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/DataStructHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/datastruct/DataStructHelperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution81.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/datastruct/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/SpiralMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution86.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution86.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
