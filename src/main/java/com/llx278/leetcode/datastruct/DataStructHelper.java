@@ -18,6 +18,7 @@ public class DataStructHelper {
         if (node.children == null) {
             return;
         }
+
         for (Node n : node.children) {
             printTreeRecurse(n,deep + 1);
         }
