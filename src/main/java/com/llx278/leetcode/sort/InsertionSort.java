@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 插入排序
  */
-public class InsertionSort {
+public class InsertionSort implements Sort {
 
     public void sort(int[] nums) {
         for (int i = 1; i < nums.length; i++) {
