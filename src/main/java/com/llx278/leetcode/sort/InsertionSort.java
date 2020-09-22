@@ -1,7 +1,5 @@
 package com.llx278.leetcode.sort;
 
-import java.util.Arrays;
-
 /**
  * 插入排序
  */
