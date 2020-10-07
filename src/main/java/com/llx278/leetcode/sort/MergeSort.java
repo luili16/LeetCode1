@@ -12,6 +12,14 @@ public class MergeSort implements Sort {
         mergeSort(0,nums.length -1, nums);
     }
 
+    @Override
+    public void sort(int[] nums, int begin, int offset) {
+        if (!(offset - begin + 1 <= nums.length && begin >=0 && offset >=0)) {
+            throw new IllegalArgumentException("offset:" + offset + " begin:" + begin + " nums.length:" + nums.length);
+        }
+        mergeSort(begin,offset,nums);
+    }
+
     private void mergeSort(int b, int e,int[] nums) {
 
         int len = e - b + 1;
