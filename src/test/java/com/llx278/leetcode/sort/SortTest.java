@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class SortTest {
 
-    private Sort sort = new ShellSort();
+    private Sort sort = new BubbleSort();
 
     @Test
     public void test(){
@@ -14,8 +14,8 @@ public class SortTest {
         Assert.assertArrayEquals(new int[]{1,2,3,4,5,6},nums);
 
         nums = new int[]{5,2,4,6,1,3};
-        sort.sort(nums,0,nums.length - 1);
-        Assert.assertArrayEquals(new int[]{1,2,3,4,5,6},nums);
+        sort.sort(nums,1,nums.length - 1);
+        Assert.assertArrayEquals(new int[]{5,1,2,3,4,6},nums);
     }
 
     @Test
@@ -74,4 +74,29 @@ public class SortTest {
         sort.sort(nums,0,nums.length - 1);
         Assert.assertArrayEquals(new int[]{1,2,3,4,5,6,7,8},nums);
     }
+
+    @Test
+    public void test6() {
+        int[] nums = new int[]{9,8,7,6,5,4,3,2,1,0};
+        sort.sort(nums);
+        Assert.assertArrayEquals(new int[]{0,1,2,3,4,5,6,7,8,9},nums);
+        nums = new int[]{9,8,7,6,5,4,3,2,1,0};
+        sort.sort(nums,1,nums.length - 1);
+        Assert.assertArrayEquals(new int[]{9,0,1,2,3,4,5,6,7,8},nums);
+    }
+
+    @Test
+    public void test7() {
+        int[] nums = new int[]{1,0};
+        sort.sort(nums,0,nums.length - 1);
+        Assert.assertArrayEquals(new int[]{0,1},nums);
+    }
+
+    @Test
+    public void test8() {
+        int[] nums = new int[]{2,1,0};
+        sort.sort(nums,1,nums.length - 1);
+        Assert.assertArrayEquals(new int[]{2,0,1},nums);
+    }
 }
+

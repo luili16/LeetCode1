@@ -22,9 +22,7 @@ public class BubbleSort implements Sort {
         if (offset - begin + 1 > nums.length) {
             throw new IndexOutOfBoundsException("offset - begin + 1 > nums.length begin:"+begin + " offset:"+offset + " length:"+nums.length);
         }
-
-        int len = offset - begin + 1;
-        for (int i = len - 1; i > begin - 1; i--) {
+        for (int i = offset; i > begin; i--) {
             for (int j = begin;j < i; j++) {
                 if (nums[j] >= nums[j + 1]) {
                     int temp= nums[j];
