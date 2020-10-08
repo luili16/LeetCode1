@@ -98,5 +98,15 @@ public class SortTest {
         sort.sort(nums,1,nums.length - 1);
         Assert.assertArrayEquals(new int[]{2,0,1},nums);
     }
+
+    @Test
+    public void test9() {
+        int[] nums = new int[] {6,1,1,1,1,2,1,1,1,1};
+        sort.sort(nums);
+        Assert.assertArrayEquals(new int[]{1,1,1,1,1,1,1,1,2,6},nums);
+        nums = new int[]{6,1,1,1,1,2,1,1,1,1};
+        sort.sort(nums,5,nums.length - 1);
+        Assert.assertArrayEquals(new int[]{6,1,1,1,1,1,1,1,1,2},nums);
+    }
 }
 

@@ -5,15 +5,19 @@ package com.llx278.leetcode.sort;
  */
 public class InsertionSort implements Sort {
 
+    /**
+     * 总执行次数:
+     *  c1*n + c2*(n-1) + c3*(n-1) + c4*(2+3+...+n)
+     */
     public void sort(int[] nums) {
-        for (int i = 1; i < nums.length; i++) {
-            int key = nums[i];
-            int k = i - 1;
-            while (k >= 0 && nums[k] > key) {
-                nums[k + 1] = nums[k];
-                k--;
+        for (int i = 1; i < nums.length; i++) { // n            c1
+            int key = nums[i];                  // n - 1            c2
+            int j = i - 1;                      // n - 1            c3
+            while (j >= 0 && nums[j] > key) {   // 2 + 3 + ... + n  c4
+                nums[j + 1] = nums[j];         // 2 + 3 + ... + n   c5
+                j--;                          // 2 + 3 + ... + n    c6
             }
-            nums[k + 1] = key;
+            nums[j + 1] = key;               // n - 1               c7
         }
     }
 
