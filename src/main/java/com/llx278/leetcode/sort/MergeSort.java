@@ -36,7 +36,7 @@ public class MergeSort implements Sort {
         mergeSort(b,s,nums);
         mergeSort(s1,e,nums);
 
-        merge(nums,b,s,e);
+        merge1(nums,b,s,e);
     }
 
 
@@ -87,15 +87,16 @@ public class MergeSort implements Sort {
         int n1 = q - p + 1;
         int n2 = r - (q + 1) + 1;
 
-        int[] l1 = new int[n1];
-        int[] l2 = new int[n2];
+        int[] l1 = new int[n1 + 1];
+        int[] l2 = new int[n2 + 1];
         for (int i = 0; i < n1; i++) {
             l1[i] = nums[i + p];
         }
         for (int j = 0; j < n2; j++) {
             l2[j] = nums[j + q + 1];
         }
-
+        l1[n1] = Integer.MAX_VALUE;
+        l2[n2] = Integer.MAX_VALUE;
         int i = 0;
         int j = 0;
         for (int k = p; k <=r; k++) {

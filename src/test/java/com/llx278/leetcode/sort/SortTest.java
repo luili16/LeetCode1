@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class SortTest {
 
-    private Sort sort = new BubbleSort();
+    private Sort sort = new MergeSort();
 
     @Test
     public void test(){
