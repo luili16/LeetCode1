@@ -36,40 +36,76 @@ public class MergeSort implements Sort {
         mergeSort(b,s,nums);
         mergeSort(s1,e,nums);
 
+        merge(nums,b,s,e);
+    }
+
+
+    private void merge(int nums[], int b, int s, int e) {
+        int len = e - b + 1;
+        int s1 = s + 1;
         int p = s - b + 1;
         int q = e - s1 + 1;
 
         int[] temp = new int[len];
-        int r = 0;
+        int r1 = 0;
         int i = 0;
         int j = 0;
         while (i < p && j < q) {
             if (nums[b + i] < nums[s1 + j]) {
-                temp[r] = nums[b + i];
-                r++;
+                temp[r1] = nums[b + i];
+                r1++;
                 i++;
             } else {
-                temp[r] = nums[s1 + j];
-                r++;
+                temp[r1] = nums[s1 + j];
+                r1++;
                 j++;
             }
         }
 
         // 拷贝剩余的
         while (i < p) {
-            temp[r] = nums[b + i];
+            temp[r1] = nums[b + i];
             i++;
-            r++;
+            r1++;
         }
         while (j < q) {
-            temp[r] = nums[s1 + j];
+            temp[r1] = nums[s1 + j];
             j++;
-            r++;
+            r1++;
         }
 
         // 拷贝排序后的数组到对应的位置
         for (int u = 0;u<len;u++) {
             nums[b + u] = temp[u];
+        }
+    }
+
+
+    // p <=q < r
+    private void merge1(int[] nums,int p,int q, int r) {
+
+        int n1 = q - p + 1;
+        int n2 = r - (q + 1) + 1;
+
+        int[] l1 = new int[n1];
+        int[] l2 = new int[n2];
+        for (int i = 0; i < n1; i++) {
+            l1[i] = nums[i + p];
+        }
+        for (int j = 0; j < n2; j++) {
+            l2[j] = nums[j + q + 1];
+        }
+
+        int i = 0;
+        int j = 0;
+        for (int k = p; k <=r; k++) {
+            if (l1[i]<l2[j]) {
+                nums[k] = l1[i];
+                i++;
+            } else {
+                nums[k] = l2[j];
+                j++;
+            }
         }
     }
 }

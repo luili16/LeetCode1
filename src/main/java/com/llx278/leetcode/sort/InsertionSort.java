@@ -7,17 +7,19 @@ public class InsertionSort implements Sort {
 
     /**
      * 总执行次数:
-     *  c1*n + c2*(n-1) + c3*(n-1) + c4*(2+3+...+n)
+     *  c1*n + c2*(n-1) + c4*(n-1) + c5*(2+3+...+n) + c6*(2+3+...+n - 1) + c7*(2+3+...+n - 1) + c8*(n - 1)
+     *  = c1*n + c2*(n-1) + c4*(n - 1) + c5*(n(n+1)/2 - 1) + c6*(n*(n-1)/2) + c7*(n*(n-1)/2)
+     *
      */
     public void sort(int[] nums) {
         for (int i = 1; i < nums.length; i++) { // n            c1
             int key = nums[i];                  // n - 1            c2
-            int j = i - 1;                      // n - 1            c3
-            while (j >= 0 && nums[j] > key) {   // 2 + 3 + ... + n  c4
-                nums[j + 1] = nums[j];         // 2 + 3 + ... + n   c5
-                j--;                          // 2 + 3 + ... + n    c6
+            int j = i - 1;                      // n - 1            c4
+            while (j >= 0 && nums[j] > key) {   // 2 + 3 + ... + n  c5
+                nums[j + 1] = nums[j];         // 2 + ... + n-1   c6   相对上一行少执行了一步
+                j--;                          // 2 + ... + n-1    c7
             }
-            nums[j + 1] = key;               // n - 1               c7
+            nums[j + 1] = key;               // n - 1               c8
         }
     }
 
