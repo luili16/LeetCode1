@@ -95,6 +95,7 @@ public class MergeSort implements Sort {
         for (int j = 0; j < n2; j++) {
             l2[j] = nums[j + q + 1];
         }
+        // 设置一个哨兵位置
         l1[n1] = Integer.MAX_VALUE;
         l2[n2] = Integer.MAX_VALUE;
         int i = 0;
