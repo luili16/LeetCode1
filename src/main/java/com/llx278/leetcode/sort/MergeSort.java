@@ -1,6 +1,6 @@
 package com.llx278.leetcode.sort;
 
-// 归并排序(快速排序)
+// 归并排序
 public class MergeSort implements Sort {
 
 

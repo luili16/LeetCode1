@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class SortTest {
 
-    private Sort sort = new MergeSort();
+    private Sort sort = new QuickSort();
 
     @Test
     public void test(){
