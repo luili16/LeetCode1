@@ -52,8 +52,36 @@ public class DataStructHelper {
         node.children = children;
     }
 
-    public static Node ToBinaryTree(int[] nums) {
-        throw new RuntimeException();
+    public static TreeNode ToBinaryTree(int[] nums) {
+        TreeNode root = new TreeNode(nums[0]);
+        TreeNode[] nodes = new TreeNode[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            int p = parent(i);
+            if (p > 0 && nodes[p] == null) {
+                nodes[p] = new TreeNode(nums[p]);
+            }
+            int l = left(i);
+            if (l < nums.length) {
+                nodes[p].left = new TreeNode(nums[l]);
+            }
+            int r = right(i);
+            if (r < nums.length) {
+                nodes[p].right = new TreeNode(nums[r]);
+            }
+        }
+        return root;
+    }
+
+    private static int parent(int i) {
+        return (i + 1) / 2 - 1;
+    }
+
+    private static int left(int i) {
+        return (i + 1) * 2 - 1;
+    }
+
+    private static int right(int i) {
+        return ((i + 1) * 2 + 1) - 1;
     }
 
     public  static ListNode toLinkedList(int[] nums) {

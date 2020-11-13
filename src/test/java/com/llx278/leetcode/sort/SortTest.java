@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class SortTest {
 
-    private Sort sort = new QuickSort();
+    private Sort sort = new QuickSortRandom();
 
     @Test
     public void test(){
