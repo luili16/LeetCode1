@@ -1,6 +1,7 @@
 package com.llx278.leetcode.easy;
 
-import com.llx278.leetcode.datastruct.TreeNode;
+
+import com.llx278.leetcode.datastruct.BinaryTreeNode;
 
 /**
  * 给定一个二叉树，找出其最小深度。
@@ -22,7 +23,7 @@ import com.llx278.leetcode.datastruct.TreeNode;
  */
 public class MinimumDepthOfBinaryTree {
 
-    public int minDepth(TreeNode root) {
+    public int minDepth(BinaryTreeNode<Integer> root) {
 
         if (root == null) {
             return 0;

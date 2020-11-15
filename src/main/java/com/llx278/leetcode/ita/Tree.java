@@ -1,49 +1,51 @@
 package com.llx278.leetcode.ita;
 
-import com.llx278.leetcode.datastruct.TreeNode;
+import com.llx278.leetcode.datastruct.BinaryTreeNode;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.List;
 
-// 实现对树的遍历
+// 实现对二叉树的遍历
 // 前序遍历: 根节点 -> 左子树 -> 右子树
 // 中序遍历: 左子树 -> 根节点 -> 右子树
 // 后序遍历: 左子树 -> 右子树 -> 根节点
 public class Tree {
 
     // 递归前序遍历
-    public void recursePreOrder(TreeNode root) {
-        System.out.println(root.val);
-        TreeNode left = root.left;
+    public <T> void recursePreOrder(BinaryTreeNode<T> root, List<BinaryTreeNode<T>> list) {
+        list.add(root);
+        BinaryTreeNode<T> left = root.left;
         if (left != null) {
-            recursePreOrder(left);
+            recursePreOrder(left,list);
         }
-        TreeNode right = root.right;
+        BinaryTreeNode<T> right = root.right;
         if (right != null) {
-            recursePreOrder(right);
+            recursePreOrder(right,list);
         }
     }
 
     // 非递归前序遍历
-    public void plainPreOrder(TreeNode root) {
-        Deque<TreeNode> stack = new ArrayDeque<>();
+    public <T> void plainPreOrder(BinaryTreeNode<T> root,List<BinaryTreeNode<T>> list) {
+        Deque<BinaryTreeNode<T>> stack = new ArrayDeque<>();
         if (root == null) {
             return;
         }
         // 根节点入栈
         stack.push(root);
-        TreeNode temp;
+        BinaryTreeNode<T> temp;
         while (!stack.isEmpty()) {
             temp = stack.pop();
             // 访问节点
-            System.out.println(temp.val);
+            //System.out.println(temp.val);
+            list.add(temp);
             // 右子树入栈(因为是最后访问右子树)
-            TreeNode right = temp.right;
+            BinaryTreeNode<T> right = temp.right;
             if (right != null) {
                 stack.push(right);
             }
             // 左子树入栈(因为是先访问左子树)
-            TreeNode left = temp.left;
+            BinaryTreeNode<T> left = temp.left;
             if (left != null) {
                 stack.push(left);
             }
@@ -51,26 +53,27 @@ public class Tree {
     }
 
     // 递归中序遍历
-    public void recurseInOrder(TreeNode root) {
-        TreeNode left = root.left;
+    public <T> void recurseInOrder(BinaryTreeNode<T> root,List<BinaryTreeNode<T>> list) {
+        BinaryTreeNode<T> left = root.left;
         if (left != null) {
-            recurseInOrder(left);
+            recurseInOrder(left,list);
         }
-        System.out.println(root.val);
-        TreeNode right = root.right;
+        //System.out.println(root.val);
+        list.add(root);
+        BinaryTreeNode<T> right = root.right;
         if (right != null) {
-            recurseInOrder(right);
+            recurseInOrder(right,list);
         }
     }
 
     // 非递归中序遍历
-    public void plainInOrder(TreeNode root) {
-        Deque<TreeNode> stack = new ArrayDeque<>();
+    public <T> void plainInOrder(BinaryTreeNode<T> root,List<BinaryTreeNode<T>> list) {
+        Deque<BinaryTreeNode<T>> stack = new ArrayDeque<>();
         if (root == null) {
             return;
         }
-        TreeNode cur = root;
-        while (!stack.isEmpty() && cur != null) {
+        BinaryTreeNode<T> cur = root;
+        while (!stack.isEmpty() || cur != null) {
             // 左子树入栈
             while (cur != null) {
                 stack.push(cur);
@@ -78,33 +81,35 @@ public class Tree {
             }
 
             cur = stack.pop();
-            System.out.println(cur.val);
+            //System.out.println(cur.val);
+            list.add(cur);
             cur = cur.right;
         }
     }
 
     // 递归后序遍历
-    public void recursePostOrder(TreeNode root) {
-        TreeNode left = root.left;
+    public <T> void recursePostOrder(BinaryTreeNode<T> root,List<BinaryTreeNode<T>> list) {
+        BinaryTreeNode<T> left = root.left;
         if (left != null) {
-            recursePostOrder(root);
+            recursePostOrder(left,list);
         }
-        TreeNode right = root.right;
+        BinaryTreeNode<T> right = root.right;
         if (right != null) {
-            recursePostOrder(right);
+            recursePostOrder(right,list);
         }
-        System.out.println(root.val);
+        //System.out.println(root.val);
+        list.add(root);
     }
 
-    public void plainPostOrder(TreeNode root) {
-        Deque<TreeNode> stack = new ArrayDeque<>();
+    public <T> void plainPostOrder(BinaryTreeNode<T> root,List<BinaryTreeNode<T>> list) {
+        Deque<BinaryTreeNode<T>> stack = new ArrayDeque<>();
         if (root == null) {
             return;
         }
-        TreeNode cur = root;
-        TreeNode top;
-        TreeNode visited=null;
-        while (!stack.isEmpty() && cur != null) {
+        BinaryTreeNode<T> cur = root;
+        BinaryTreeNode<T> top;
+        BinaryTreeNode<T> visited=null;
+        while (!stack.isEmpty() || cur != null) {
             while (cur != null) {
                 stack.push(cur);
                 cur = cur.left;
@@ -115,11 +120,12 @@ public class Tree {
             // 如果没有右子树或者这个节点已经遍历过了，元素出栈
             if (top.right == null || top.right == visited) {
                 stack.pop();
-                System.out.println(top.val);
+                //System.out.println(top.val);
+                list.add(top);
                 visited = top;
             } else {
                 // 有右子树，继续遍历
-                cur = stack.pop();
+                cur = top.right;
             }
         }
     }

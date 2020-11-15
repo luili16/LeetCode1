@@ -1,6 +1,7 @@
 package com.llx278.leetcode.easy;
 
-import com.llx278.leetcode.datastruct.TreeNode;
+
+import com.llx278.leetcode.datastruct.BinaryTreeNode;
 
 /**
  * 给定一个二叉树，找出其最大深度。
@@ -21,7 +22,7 @@ import com.llx278.leetcode.datastruct.TreeNode;
  */
 public class MaximumDepthOfBinaryTree {
 
-    public int maxDepth(TreeNode root) {
+    public int maxDepth(BinaryTreeNode<Integer> root) {
         if (root == null) {
             return 0;
         }
@@ -38,7 +39,7 @@ public class MaximumDepthOfBinaryTree {
         int maxDeep = 0;
     }
 
-    private void travelTree(TreeNode node, DeepCount d) {
+    private void travelTree(BinaryTreeNode<Integer> node, DeepCount d) {
         if (node == null) {
             d.deepth--;
             return;

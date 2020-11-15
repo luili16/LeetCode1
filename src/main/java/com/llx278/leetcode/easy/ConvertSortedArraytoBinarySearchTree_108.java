@@ -1,6 +1,6 @@
 package com.llx278.leetcode.easy;
 
-import com.llx278.leetcode.datastruct.TreeNode;
+import com.llx278.leetcode.datastruct.BinaryTreeNode;
 
 /**
  * 将一个按照升序排列的有序数组，转换为一棵高度平衡二叉搜索树。
@@ -21,7 +21,7 @@ import com.llx278.leetcode.datastruct.TreeNode;
  */
 public class ConvertSortedArraytoBinarySearchTree_108 {
 
-    public TreeNode sortedArrayToBST(int[] nums) {
+    public BinaryTreeNode<Integer> sortedArrayToBST(int[] nums) {
 
 
         if (nums.length == 0) {
@@ -29,12 +29,12 @@ public class ConvertSortedArraytoBinarySearchTree_108 {
         }
 
         if (nums.length == 1) {
-            return new TreeNode(nums[0]);
+            return new BinaryTreeNode<Integer>(nums[0],null);
         }
 
         if (nums.length == 2) {
-            TreeNode root = new TreeNode(nums[0]);
-            TreeNode node = new TreeNode(nums[1]);
+            BinaryTreeNode<Integer> root = new BinaryTreeNode<Integer>(nums[0]);
+            BinaryTreeNode<Integer> node = new BinaryTreeNode<Integer>(nums[1]);
             insertTo(root, node);
             return root;
         }
@@ -44,16 +44,16 @@ public class ConvertSortedArraytoBinarySearchTree_108 {
         int leftEnd = middleIndex - 1;
         int rightBegin = middleIndex + 1;
         int rightEnd = nums.length - 1;
-        TreeNode root = new TreeNode(nums[middleIndex]);
+        BinaryTreeNode<Integer> root = new BinaryTreeNode<Integer>(nums[middleIndex]);
         System.out.println("middle : " + nums[middleIndex]);
         generate(nums, root, leftBegin, leftEnd, rightBegin, rightEnd);
         return root;
 
     }
 
-    private void insertTo(TreeNode root, TreeNode node) {
+    private void insertTo(BinaryTreeNode<Integer> root, BinaryTreeNode<Integer> node) {
 
-        TreeNode temp = root;
+        BinaryTreeNode<Integer> temp = root;
         while (true) {
             if (temp.val >= node.val) {
 
@@ -75,9 +75,9 @@ public class ConvertSortedArraytoBinarySearchTree_108 {
         }
     }
 
-    private void generate(int[] nums, TreeNode node, int leftBegin, int leftEnd, int rightBegin, int rightEnd) {
+    private void generate(int[] nums, BinaryTreeNode<Integer> node, int leftBegin, int leftEnd, int rightBegin, int rightEnd) {
         if (leftBegin == leftEnd) {
-            TreeNode left = new TreeNode(nums[leftBegin]);
+            BinaryTreeNode<Integer> left = new BinaryTreeNode<Integer>(nums[leftBegin]);
             System.out.println("middle0 : " + nums[leftBegin]);
             insertTo(node, left);
         } else {
@@ -88,7 +88,7 @@ public class ConvertSortedArraytoBinarySearchTree_108 {
             } else {
                 int leftMiddleIndex = (leftEnd - leftBegin + 1) / 2 + leftBegin;
                 System.out.println("leftMiddle : " + nums[leftMiddleIndex]);
-                TreeNode left = new TreeNode(nums[leftMiddleIndex]);
+                BinaryTreeNode<Integer> left = new BinaryTreeNode<Integer>(nums[leftMiddleIndex]);
                 insertTo(node, left);
                 int newLeftBegin1 = leftBegin;
                 int newLeftEnd1 = leftMiddleIndex - 1;
@@ -100,7 +100,7 @@ public class ConvertSortedArraytoBinarySearchTree_108 {
         }
 
         if (rightBegin == rightEnd) {
-            TreeNode right = new TreeNode(nums[rightBegin]);
+            BinaryTreeNode<Integer> right = new BinaryTreeNode<Integer>(nums[rightBegin]);
             System.out.println("middle1 : " + nums[rightBegin]);
             insertTo(node, right);
         } else {
@@ -110,7 +110,7 @@ public class ConvertSortedArraytoBinarySearchTree_108 {
             } else {
                 int rightMiddleIndex = (rightEnd - rightBegin + 1) / 2 + rightBegin;
                 System.out.println("rightMiddle : " + nums[rightMiddleIndex]);
-                TreeNode right = new TreeNode(nums[rightMiddleIndex]);
+                BinaryTreeNode<Integer> right = new BinaryTreeNode<Integer>(nums[rightMiddleIndex]);
                 insertTo(node, right);
                 int newLeftBegin2 = rightBegin;
                 int newLeftEnd2 = rightMiddleIndex - 1;

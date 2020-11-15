@@ -1,6 +1,6 @@
 package com.llx278.leetcode.easy;
 
-import com.llx278.leetcode.datastruct.TreeNode;
+import com.llx278.leetcode.datastruct.BinaryTreeNode;
 
 import java.util.Collections;
 import java.util.LinkedList;
@@ -32,7 +32,7 @@ public class BinaryTreeLevelOrderTraversal_II {
         int maxDeep = 0;
     }
 
-    public List<List<Integer>> levelOrderBottom(TreeNode root) {
+    public List<List<Integer>> levelOrderBottom(BinaryTreeNode<Integer> root) {
         List<List<Integer>> list = new LinkedList<>();
         DeepCount d = new DeepCount();
         d.deepth = 1;
@@ -44,7 +44,7 @@ public class BinaryTreeLevelOrderTraversal_II {
 
     }
 
-    private void travelTree(TreeNode node, DeepCount d, List<List<Integer>> lists) {
+    private void travelTree(BinaryTreeNode<Integer> node, DeepCount d, List<List<Integer>> lists) {
 
         if (node == null) {
             d.deepth--;

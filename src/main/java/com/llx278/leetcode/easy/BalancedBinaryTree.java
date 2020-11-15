@@ -1,6 +1,6 @@
 package com.llx278.leetcode.easy;
 
-import com.llx278.leetcode.datastruct.TreeNode;
+import com.llx278.leetcode.datastruct.BinaryTreeNode;
 
 /**
  * 给定一个二叉树，判断它是否是高度平衡的二叉树。
@@ -39,7 +39,7 @@ public class BalancedBinaryTree  {
         public boolean isBalanced;
     }
 
-    public boolean isBalanced(TreeNode root) {
+    public boolean isBalanced(BinaryTreeNode<Integer> root) {
 
         if (root == null) {
             return true;
@@ -51,7 +51,7 @@ public class BalancedBinaryTree  {
         return result.isBalanced;
     }
 
-    private int travelTree(TreeNode node, Result r) {
+    private int travelTree(BinaryTreeNode<Integer> node, Result r) {
 
         if (node.left == null && node.right == null) {
             return 0;

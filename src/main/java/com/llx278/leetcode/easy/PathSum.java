@@ -1,6 +1,7 @@
 package com.llx278.leetcode.easy;
 
-import com.llx278.leetcode.datastruct.TreeNode;
+
+import com.llx278.leetcode.datastruct.BinaryTreeNode;
 
 import java.util.Stack;
 
@@ -22,13 +23,13 @@ import java.util.Stack;
  * 返回 true, 因为存在目标和为 22 的根节点到叶子节点的路径 5->4->11->2。
  */
 public class PathSum {
-    public boolean hasPathSum(TreeNode root, int sum) {
+    public boolean hasPathSum(BinaryTreeNode<Integer> root, int sum) {
 
-        Stack<TreeNode> nodeStack = new Stack<>();
+        Stack<BinaryTreeNode<Integer>> nodeStack = new Stack<>();
         nodeStack.push(root);
         int value = 0;
         while (!nodeStack.isEmpty()) {
-            TreeNode node = nodeStack.pop();
+            BinaryTreeNode<Integer> node = nodeStack.pop();
             if (node != null) {
                 value += node.val;
                 if (value == sum) {

@@ -52,24 +52,41 @@ public class DataStructHelper {
         node.children = children;
     }
 
-    public static TreeNode ToBinaryTree(int[] nums) {
-        TreeNode root = new TreeNode(nums[0]);
-        TreeNode[] nodes = new TreeNode[nums.length];
+    public static <T> List<Integer> toKeys(List<BinaryTreeNode<T>> nodes) {
+        List<Integer> i = new ArrayList<>();
+        nodes.forEach(tBinaryTreeNode -> {
+            i.add(tBinaryTreeNode.key);
+        });
+        return i;
+    }
+
+    public static <T> BinaryTreeNode<T> toBinaryTree(Integer[] nums) {
+        @SuppressWarnings("unchecked")
+        BinaryTreeNode<T>[] nodes = new BinaryTreeNode[nums.length];
         for (int i = 0; i < nums.length; i++) {
-            int p = parent(i);
-            if (p > 0 && nodes[p] == null) {
-                nodes[p] = new TreeNode(nums[p]);
+            if (nodes[i] == null && nums[i] != null) {
+                nodes[i] = new BinaryTreeNode<>(nums[i]);
             }
+
             int l = left(i);
-            if (l < nums.length) {
-                nodes[p].left = new TreeNode(nums[l]);
+            if (l < nums.length && nums[l] != null && nodes[i] != null) {
+                if (nodes[l] == null) {
+                    nodes[l] = new BinaryTreeNode<>(nums[l]);
+                }
+                // 左子树存在
+                nodes[i].left = nodes[l];
             }
+
             int r = right(i);
-            if (r < nums.length) {
-                nodes[p].right = new TreeNode(nums[r]);
+            if (r < nums.length && nums[r] != null && nodes[i] != null) {
+                if (nodes[r] == null) {
+                    nodes[r] = new BinaryTreeNode<>(nums[r]);
+                }
+                // 右子树存在
+                nodes[i].right = nodes[r];
             }
         }
-        return root;
+        return nodes[0];
     }
 
     private static int parent(int i) {

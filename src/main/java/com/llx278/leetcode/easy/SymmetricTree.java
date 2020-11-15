@@ -1,6 +1,6 @@
 package com.llx278.leetcode.easy;
 
-import com.llx278.leetcode.datastruct.TreeNode;
+import com.llx278.leetcode.datastruct.BinaryTreeNode;
 
 /**
  * 给定一个二叉树，检查它是否是镜像对称的。
@@ -29,21 +29,21 @@ public class SymmetricTree {
         boolean isSame;
     }
 
-    public boolean isSymmetric(TreeNode root) {
+    public boolean isSymmetric(BinaryTreeNode<Integer> root) {
 
         if (root == null) {
             return true;
         }
 
-        TreeNode left = root.left;
-        TreeNode right = root.right;
+        BinaryTreeNode<Integer> left = root.left;
+        BinaryTreeNode<Integer> right = root.right;
         BooleanWrapper w = new BooleanWrapper();
         w.isSame = true;
         travalTrees(left,right,w);
         return w.isSame;
     }
 
-    private void travalTrees(TreeNode p, TreeNode q, BooleanWrapper w) {
+    private void travalTrees(BinaryTreeNode<Integer> p, BinaryTreeNode<Integer> q, BooleanWrapper w) {
 
         if (p == null && q == null) {
             return;
@@ -54,7 +54,7 @@ public class SymmetricTree {
             return;
         }
 
-        if (p.val != q.val) {
+        if (!p.val.equals(q.val)) {
             w.isSame = false;
             return;
         }

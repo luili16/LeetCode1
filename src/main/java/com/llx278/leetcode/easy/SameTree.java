@@ -1,6 +1,7 @@
 package com.llx278.leetcode.easy;
 
-import com.llx278.leetcode.datastruct.TreeNode;
+
+import com.llx278.leetcode.datastruct.BinaryTreeNode;
 
 public class SameTree {
 
@@ -8,14 +9,14 @@ public class SameTree {
         boolean isSame;
     }
 
-    public boolean isSameTree(TreeNode p, TreeNode q) {
+    public boolean isSameTree(BinaryTreeNode<Integer> p, BinaryTreeNode<Integer> q) {
         BooleanWrapper w = new BooleanWrapper();
         w.isSame = true;
         travalTrees(p, q, w);
         return w.isSame;
     }
 
-    private void travalTrees(TreeNode p, TreeNode q, BooleanWrapper w) {
+    private void travalTrees(BinaryTreeNode<Integer> p, BinaryTreeNode<Integer> q, BooleanWrapper w) {
 
         if (p == null && q == null) {
             return;
