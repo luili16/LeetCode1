@@ -5,7 +5,7 @@ import java.util.Deque;
 import java.util.HashSet;
 import java.util.Objects;
 
-public class WordSearchNum79 {
+public class Solution79 {
     public boolean exist(char[][] board, String word) {
 
         if (word.length() == 0) {

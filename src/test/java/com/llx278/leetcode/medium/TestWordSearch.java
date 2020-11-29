@@ -10,11 +10,11 @@ import static org.junit.Assert.*;
 @RunWith(JUnit4.class)
 public class TestWordSearch {
 
-    private WordSearchNum79 wordSearch;
+    private Solution79 wordSearch;
 
     @Before
     public void setup() {
-        wordSearch = new WordSearchNum79();
+        wordSearch = new Solution79();
     }
 
 
