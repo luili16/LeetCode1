@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="905747d4-80e2-40a4-bcfa-a87eaaea7955" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution91.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution91.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution92.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/llx278/leetcode/medium/TestSolution92.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +88,7 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestSolution91.testCase">
+  <component name="RunManager" selected="Gradle.TestSolution92.test">
     <configuration name="TestSolution78.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -165,42 +165,39 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="llx.test" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.llx278.leetcode.datastruct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="PACKAGE_NAME" value="com.llx278.leetcode.ita" />
-      <option name="MAIN_CLASS_NAME" value="com.llx278.leetcode.ita.TreeTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="TestSolution92.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.llx278.leetcode.medium.TestSolution92.test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TreeTest" />
       <item itemvalue="Gradle.TestSolution78.test" />
       <item itemvalue="Gradle.TestSolution82.testCase" />
       <item itemvalue="Gradle.TestSolution90.testCase" />
       <item itemvalue="Gradle.TestSolution91.testCase" />
+      <item itemvalue="Gradle.TestSolution92.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestSolution92.test" />
         <item itemvalue="Gradle.TestSolution91.testCase" />
         <item itemvalue="Gradle.TestSolution90.testCase" />
         <item itemvalue="Gradle.TestSolution82.testCase" />
         <item itemvalue="Gradle.TestSolution78.test" />
-        <item itemvalue="JUnit.TreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -248,58 +245,58 @@
       <screen x="0" y="25" width="1920" height="1023" />
     </state>
     <state width="431" height="466" key="DebuggerActiveHint/-1280.125.1280.775/0.25.1920.1023@0.25.1920.1023" timestamp="1605451851225" />
-    <state width="1145" height="185" key="GridCell.Tab.0.bottom" timestamp="1606922855737">
+    <state width="898" height="310" key="GridCell.Tab.0.bottom" timestamp="1607474724221">
       <screen x="0" y="25" width="1920" height="1023" />
     </state>
     <state width="1878" height="281" key="GridCell.Tab.0.bottom/-1280.125.1280.775/0.25.1920.1023@0.25.1920.1023" timestamp="1605454982156" />
     <state width="1355" height="185" key="GridCell.Tab.0.bottom/0.23.1399.877@0.23.1399.877" timestamp="1599897576827" />
     <state width="1355" height="444" key="GridCell.Tab.0.bottom/0.23.1400.877@0.23.1400.877" timestamp="1599912497664" />
-    <state width="1145" height="185" key="GridCell.Tab.0.bottom/0.25.1920.1023/-1280.125.1280.775@0.25.1920.1023" timestamp="1606922855737" />
+    <state width="898" height="310" key="GridCell.Tab.0.bottom/0.25.1920.1023/-1280.125.1280.775@0.25.1920.1023" timestamp="1607474724221" />
     <state width="1014" height="219" key="GridCell.Tab.0.bottom/1920.25.1408.2535/-1680.25.1680.1025/0.25.1920.1055@0.25.1920.1055" timestamp="1605406865006" />
-    <state width="1145" height="185" key="GridCell.Tab.0.center" timestamp="1606922855736">
+    <state width="898" height="310" key="GridCell.Tab.0.center" timestamp="1607474724220">
       <screen x="0" y="25" width="1920" height="1023" />
     </state>
     <state width="1878" height="281" key="GridCell.Tab.0.center/-1280.125.1280.775/0.25.1920.1023@0.25.1920.1023" timestamp="1605454982155" />
     <state width="1355" height="185" key="GridCell.Tab.0.center/0.23.1399.877@0.23.1399.877" timestamp="1599897576826" />
     <state width="1355" height="444" key="GridCell.Tab.0.center/0.23.1400.877@0.23.1400.877" timestamp="1599912497663" />
-    <state width="1145" height="185" key="GridCell.Tab.0.center/0.25.1920.1023/-1280.125.1280.775@0.25.1920.1023" timestamp="1606922855736" />
+    <state width="898" height="310" key="GridCell.Tab.0.center/0.25.1920.1023/-1280.125.1280.775@0.25.1920.1023" timestamp="1607474724220" />
     <state width="1014" height="219" key="GridCell.Tab.0.center/1920.25.1408.2535/-1680.25.1680.1025/0.25.1920.1055@0.25.1920.1055" timestamp="1605406865005" />
-    <state width="1145" height="185" key="GridCell.Tab.0.left" timestamp="1606922855735">
+    <state width="898" height="310" key="GridCell.Tab.0.left" timestamp="1607474724219">
       <screen x="0" y="25" width="1920" height="1023" />
     </state>
     <state width="1878" height="281" key="GridCell.Tab.0.left/-1280.125.1280.775/0.25.1920.1023@0.25.1920.1023" timestamp="1605454982155" />
     <state width="1355" height="185" key="GridCell.Tab.0.left/0.23.1399.877@0.23.1399.877" timestamp="1599897576826" />
     <state width="1355" height="444" key="GridCell.Tab.0.left/0.23.1400.877@0.23.1400.877" timestamp="1599912497662" />
-    <state width="1145" height="185" key="GridCell.Tab.0.left/0.25.1920.1023/-1280.125.1280.775@0.25.1920.1023" timestamp="1606922855735" />
+    <state width="898" height="310" key="GridCell.Tab.0.left/0.25.1920.1023/-1280.125.1280.775@0.25.1920.1023" timestamp="1607474724219" />
     <state width="1014" height="219" key="GridCell.Tab.0.left/1920.25.1408.2535/-1680.25.1680.1025/0.25.1920.1055@0.25.1920.1055" timestamp="1605406865004" />
-    <state width="1145" height="185" key="GridCell.Tab.0.right" timestamp="1606922855736">
+    <state width="898" height="310" key="GridCell.Tab.0.right" timestamp="1607474724220">
       <screen x="0" y="25" width="1920" height="1023" />
     </state>
     <state width="1878" height="281" key="GridCell.Tab.0.right/-1280.125.1280.775/0.25.1920.1023@0.25.1920.1023" timestamp="1605454982156" />
     <state width="1355" height="185" key="GridCell.Tab.0.right/0.23.1399.877@0.23.1399.877" timestamp="1599897576827" />
     <state width="1355" height="444" key="GridCell.Tab.0.right/0.23.1400.877@0.23.1400.877" timestamp="1599912497663" />
-    <state width="1145" height="185" key="GridCell.Tab.0.right/0.25.1920.1023/-1280.125.1280.775@0.25.1920.1023" timestamp="1606922855736" />
+    <state width="898" height="310" key="GridCell.Tab.0.right/0.25.1920.1023/-1280.125.1280.775@0.25.1920.1023" timestamp="1607474724220" />
     <state width="1014" height="219" key="GridCell.Tab.0.right/1920.25.1408.2535/-1680.25.1680.1025/0.25.1920.1055@0.25.1920.1055" timestamp="1605406865005" />
-    <state width="1145" height="285" key="GridCell.Tab.1.bottom" timestamp="1606921420896">
+    <state width="898" height="271" key="GridCell.Tab.1.bottom" timestamp="1607389061049">
       <screen x="0" y="25" width="1920" height="1023" />
     </state>
     <state width="937" height="319" key="GridCell.Tab.1.bottom/-1280.125.1280.775/0.25.1920.1023@0.25.1920.1023" timestamp="1605452093534" />
-    <state width="1145" height="285" key="GridCell.Tab.1.bottom/0.25.1920.1023/-1280.125.1280.775@0.25.1920.1023" timestamp="1606921420896" />
-    <state width="1145" height="285" key="GridCell.Tab.1.center" timestamp="1606921420896">
+    <state width="898" height="271" key="GridCell.Tab.1.bottom/0.25.1920.1023/-1280.125.1280.775@0.25.1920.1023" timestamp="1607389061049" />
+    <state width="898" height="271" key="GridCell.Tab.1.center" timestamp="1607389061049">
       <screen x="0" y="25" width="1920" height="1023" />
     </state>
     <state width="937" height="319" key="GridCell.Tab.1.center/-1280.125.1280.775/0.25.1920.1023@0.25.1920.1023" timestamp="1605452093533" />
-    <state width="1145" height="285" key="GridCell.Tab.1.center/0.25.1920.1023/-1280.125.1280.775@0.25.1920.1023" timestamp="1606921420896" />
-    <state width="1145" height="285" key="GridCell.Tab.1.left" timestamp="1606921420895">
+    <state width="898" height="271" key="GridCell.Tab.1.center/0.25.1920.1023/-1280.125.1280.775@0.25.1920.1023" timestamp="1607389061049" />
+    <state width="898" height="271" key="GridCell.Tab.1.left" timestamp="1607389061048">
       <screen x="0" y="25" width="1920" height="1023" />
     </state>
     <state width="937" height="319" key="GridCell.Tab.1.left/-1280.125.1280.775/0.25.1920.1023@0.25.1920.1023" timestamp="1605452093533" />
-    <state width="1145" height="285" key="GridCell.Tab.1.left/0.25.1920.1023/-1280.125.1280.775@0.25.1920.1023" timestamp="1606921420895" />
-    <state width="1145" height="285" key="GridCell.Tab.1.right" timestamp="1606921420896">
+    <state width="898" height="271" key="GridCell.Tab.1.left/0.25.1920.1023/-1280.125.1280.775@0.25.1920.1023" timestamp="1607389061048" />
+    <state width="898" height="271" key="GridCell.Tab.1.right" timestamp="1607389061049">
       <screen x="0" y="25" width="1920" height="1023" />
     </state>
     <state width="937" height="319" key="GridCell.Tab.1.right/-1280.125.1280.775/0.25.1920.1023@0.25.1920.1023" timestamp="1605452093533" />
-    <state width="1145" height="285" key="GridCell.Tab.1.right/0.25.1920.1023/-1280.125.1280.775@0.25.1920.1023" timestamp="1606921420896" />
+    <state width="898" height="271" key="GridCell.Tab.1.right/0.25.1920.1023/-1280.125.1280.775@0.25.1920.1023" timestamp="1607389061049" />
     <state x="207" y="100" key="SettingsEditor" timestamp="1599896922650">
       <screen x="0" y="23" width="1399" height="877" />
     </state>
@@ -339,6 +336,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/sort/CountingSort.java</url>
           <line>18</line>
           <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/llx278/leetcode/medium/Solution92.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
